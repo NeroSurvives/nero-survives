@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07152d">
+  <title>Nero Survives — Day 1</title>
+  <meta name="description" content="Follow Nero's survival story, one day at a time.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#home">NERO <span>SURVIVES</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#story">Story</a><a href="#episodes">Episodes</a><a href="#shop">Shop</a>
+    </nav>
+    <div class="socials">
+      <!-- Replace # with your actual channel/profile URLs -->
+      <a href="#" aria-label="TikTok">TikTok</a>
+      <a href="#" aria-label="YouTube">YouTube</a>
+      <a href="#" aria-label="Instagram">IG</a>
+      <a class="shop-pill" href="#shop">▣ Shop</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="stars"></div>
+      <div class="moon"></div>
+      <div class="city city-back"></div><div class="city city-front"></div>
+      <div class="water-tower"></div>
+      <div class="rooftop"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">ONE CHARACTER. ONE BIG SURVIVAL STORY.</p>
+        <h1 id="day-number">DAY 1</h1>
+        <p class="tagline">Every day is a new challenge.<br>Will Nero make it?</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#episodes">▶ Watch the story</a>
+          <a class="button button-gold" href="#shop">Shop the merch</a>
+        </div>
+      </div>
+      <div class="character-stage">
+        <div class="glow"></div>
+        <div class="camp"><span class="camp-roof"></span><span class="camp-side"></span></div>
+        <img class="character" src="assets/nero-character.png" alt="Nero, the main character of Nero Survives">
+        <p class="stage-caption">NERO'S JOURNEY STARTS HERE</p>
+      </div>
+      <a class="scroll-cue" href="#story">↓ <span>SCROLL TO EXPLORE</span></a>
+    </section>
+
+    <section class="content-grid" id="story">
+      <article class="panel story-panel">
+        <p class="section-kicker">THE STORY</p>
+        <h2>Small character.<br>Big survival energy.</h2>
+        <p>Welcome to Nero's world. Follow the journey, discover what happens next, and see how long Nero can survive.</p>
+        <a class="text-link" href="#episodes">Explore the episodes ↗</a>
+      </article>
+      <article class="panel episode-panel" id="episodes">
+        <p class="section-kicker">LATEST EPISODE</p>
+        <div class="episode-art"><span class="play">▶</span><span class="episode-number">EPISODE 01</span></div>
+        <h2>The journey begins</h2>
+        <p>Every story starts somewhere. Watch the latest chapter on YouTube.</p>
+        <a class="button button-outline" href="#" id="youtube-link">▶ Watch on YouTube</a>
+      </article>
+      <article class="panel shop-panel" id="shop">
+        <p class="section-kicker">SUPPORT THE JOURNEY</p>
+        <div class="merch-art"><span class="shirt">N</span></div>
+        <h2>Nero merch is coming.</h2>
+        <p>Give fans a way to support the series. Add your shop link when your first product is ready.</p>
+        <a class="button button-gold" href="#" id="shop-link">Visit the shop ↗</a>
+      </article>
+    </section>
+  </main>
+  <footer><span>© <span id="year"></span> Nero Survives</span><span>Follow the journey. Survive the day.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
